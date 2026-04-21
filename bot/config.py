@@ -3,17 +3,17 @@ from bot.get_cfg import get_config
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "8036958780:AAGu1Xdfe9n6RdO0yWl4KjdcO7HBAcE4NeM")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", 36172902))
-    API_HASH = get_config("c3a7e1d518f38928a21865e75458b62a")
+    APP_ID = int(get_config("APP_ID", 12345))
+    API_HASH = get_config("API_HASH")
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
     AUTH_USERS = set(
         int(x) for x in get_config(
             "AUTH_USERS",
             should_prompt=True
-        ).split()
+        ).spl
     )
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/DOWNLOADS")

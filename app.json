@@ -23,11 +23,11 @@
     },
     "APP_ID": {
       "description": "36172902",
-      "value": ""
+      "value": "36172902"
     },
     "API_HASH": {
       "description": "c3a7e1d518f38928a21865e75458b62a",
-      "value": ""
+      "value": "c3a7e1d518f38928a21865e75458b62a"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
